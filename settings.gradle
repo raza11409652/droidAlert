@@ -1,0 +1,3 @@
+include ':alertdroid'
+include ':app'
+rootProject.name = "ToastDroid"

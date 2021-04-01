@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/error_color"
+    android:backgroundTint="@color/error_color"
+    android:clipToPadding="true"
+    android:elevation="@dimen/zero"
+    app:cardCornerRadius="@dimen/dimen_8"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/size_10">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/size_52"
+            android:layout_height="@dimen/size_52"
+            android:background="@drawable/color_view_background"
+            android:src="@drawable/ic_error" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/size_10"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_toRightOf="@id/image"
+            android:fontFamily="@font/theme"
+            android:maxLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:typeface="serif" />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

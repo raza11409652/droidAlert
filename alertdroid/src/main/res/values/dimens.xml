@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="zero">0sp</dimen>
+    <dimen name="dimen_8">8sp</dimen>
+    <dimen name="size_10">10sp</dimen>
+    <dimen name="size_52">52sp</dimen>
+</resources>
