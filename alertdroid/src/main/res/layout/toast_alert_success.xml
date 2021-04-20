@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/error_color"
-    android:backgroundTint="@color/error_color"
+    android:background="@color/success_color"
+    android:backgroundTint="@color/success_color"
     android:clipToPadding="true"
     android:elevation="@dimen/zero"
     app:cardCornerRadius="@dimen/dimen_8"
@@ -21,7 +21,7 @@
             android:layout_width="@dimen/size_52"
             android:layout_height="@dimen/size_52"
             android:background="@drawable/color_view_background"
-            android:src="@drawable/ic_alert_triangle" />
+            android:src="@drawable/ic_check_square" />
 
 
         <TextView
