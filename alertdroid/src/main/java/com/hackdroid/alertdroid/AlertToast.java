@@ -47,4 +47,16 @@ public class AlertToast {
         toast.setGravity(Gravity.BOTTOM, 0, 0);
         toast.show();
     }
+    public void showSuccessToast(String msg) {
+        View view = LayoutInflater.from(context).inflate(R.layout.toast_alert_success, null, false);
+        ImageView imageView = view.findViewById(R.id.image);
+        Animation animation = AnimationUtils.loadAnimation(context, R.anim.pulse);
+        imageView.setAnimation(animation);
+        TextView textView = view.findViewById(R.id.text);
+        textView.setText(msg);
+        Toast toast = new Toast(context);
+        toast.setView(view);
+        toast.setGravity(Gravity.BOTTOM, 0, 0);
+        toast.show();
+    }
 }
